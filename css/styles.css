@@ -1,0 +1,100 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+}
+
+.left-column{
+    width: 65%;
+    position: relative;
+}
+
+.left-column img{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    opacity: 0;
+}
+.left-column img.active{
+    opacity: 1;
+}
+
+.right-column{
+    width: 35%;
+    margin-top: 60px;
+}
+
+.product-description{
+    border-bottom: 1px solid #e1e8ee;
+    margin-bottom: 20px;
+}
+
+.product-description h1{
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484d;
+    letter-spacing: -2px;
+}
+
+.product-description p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939e;
+    line-height: 24px;
+}
+
+.product-color{
+    margin-bottom: 30px;
+}
+.color-choose div{
+    display: inline-block;
+}
+
+.color-choose input[type="radio"]{
+    display: none;
+}
+
+.color-choose input[type="radio"] + label span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.color-choose input[type="radio"] + label span{
+    border: 2px solid #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+}
+
+.color-choose input[type="radio"]#red + label span{
+    background-color: #c91524;
+}
+
+.color-choose input[type="radio"]#blue + label span{
+    background-color: #314780;
+}
+.color-choose input[type="radio"]#black + label span{
+    background-color: #323232;
+}
+
+.color-choose input[type="radio"]#green + label span{
+    background-color: green;
+}
+.product-price span {
+    font-size: 48px;
+    font-weight: 300;
+    color: #43474d;
+}
+
+
+
+

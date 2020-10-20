@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Productos</title>
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="left-column">
+
+            <img data-img="black" src="img/black.png" alt="gorra negra">
+
+            <img data-img="blue" src="img/blue.png" alt="gorra azul">
+
+            <img data-img="red" class="active" src="img/red.png" alt="gorra roja">
+
+            <img data-img="green" src="img/green.png" alt="gorra verde">
+
+        </div>
+
+        <div class="right-column">
+
+            <div class="product-description">
+
+                <h1>Gorras</h1>
+
+                <P>Gorras Con Visera Ajustable Calidad Premium</P>
+
+            </div>
+
+            <div class="product-color">
+
+                <span>Color</span>
+
+                <div class="color-choose">
+
+                    <div>
+
+                        <input data-img="red" type="radio" id="red" name="color" value="red" checked>
+                        <label for="red"><span></span></label>
+
+                    </div>
+
+                    <div>
+
+                        <input data-img="blue" type="radio" id="blue" name="color" value="blue" checked>
+                        <label for="blue"><span></span></label>
+
+                    </div>
+
+                    <div>
+
+                        <input data-img="black" type="radio" id="black" name="color" value="black" checked>
+                        <label for="black"><span></span></label>
+
+                    </div>
+
+                    <div>
+
+                        <input data-img="green" type="radio" id="green" name="color" value="green" checked>
+                        <label for="green"><span></span></label>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="product-price">
+
+                <span>$748</span>
+
+            </div>
+
+        </div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
